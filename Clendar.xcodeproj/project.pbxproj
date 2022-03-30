@@ -468,7 +468,6 @@
 		A3F25977224771F2009A50B6 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		A3F259792247742C009A50B6 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		A3F2597C2247762F009A50B6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
-		A3FA4D19259E2F59009D4F39 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 		A3FB5B36255C20D30038AFCE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		A3FBFC9725CEB21600CF6420 /* PurchaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseButton.swift; sourceTree = "<group>"; };
 		A3FBFC9F25CEB27F00CF6420 /* PurchaseProductIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseProductIdentifier.swift; sourceTree = "<group>"; };
@@ -751,7 +750,6 @@
 			children = (
 				A3064D2A254CEF5800C7F228 /* ClendarWidgetExtension.entitlements */,
 				A3D3EAD825CE468B00EC3D1D /* Configuration.storekit */,
-				A3FA4D19259E2F59009D4F39 /* TODO.md */,
 				A3C2400127CA1143004838E8 /* Packages */,
 				A33F80C822467A82009CC46A /* Clendar */,
 				A33F80DD22467A85009CC46A /* ClendarTests */,
@@ -1401,13 +1399,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Clendar/Pods-Clendar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Clendar/Pods-Clendar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1819,7 +1813,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				INFOPLIST_FILE = ClendarWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1847,7 +1841,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				INFOPLIST_FILE = ClendarWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1874,7 +1868,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				IBSC_MODULE = ClendarWatchApp_Extension;
 				INFOPLIST_FILE = ClendarWatchApp/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinhnx.Clendar.watchkitapp;
@@ -1896,7 +1890,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				IBSC_MODULE = ClendarWatchApp_Extension;
 				INFOPLIST_FILE = ClendarWatchApp/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinhnx.Clendar.watchkitapp;
@@ -1917,7 +1911,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ClendarWatchApp Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "ClendarWatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1943,7 +1937,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ClendarWatchApp Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "ClendarWatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2095,7 +2089,7 @@
 				CURRENT_PROJECT_VERSION = 96;
 				"DEBUG_INFORMATION_FORMAT[sdk=iphoneos*]" = "dwarf-with-dsym";
 				"DEBUG_INFORMATION_FORMAT[sdk=iphonesimulator*]" = dwarf;
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				INFOPLIST_FILE = Clendar/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2126,7 +2120,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 96;
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				INFOPLIST_FILE = Clendar/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2153,7 +2147,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				INFOPLIST_FILE = ClendarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2175,7 +2169,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				INFOPLIST_FILE = ClendarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2196,7 +2190,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				INFOPLIST_FILE = ClendarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2217,7 +2211,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TWWD47PW9;
+				DEVELOPMENT_TEAM = T45LB287LC;
 				INFOPLIST_FILE = ClendarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

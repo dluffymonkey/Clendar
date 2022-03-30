@@ -126,8 +126,6 @@ struct R: Rswift.Validatable {
     static let comAppleSecurityPersonalInformationLocation = true
 
     struct comAppleSecurityApplicationGroups {
-      static let groupComVinhnxClendar = infoPlistString(path: ["com.apple.security.application-groups"], key: "group.com.vinhnx.Clendar") ?? "group.com.vinhnx.Clendar"
-
       fileprivate init() {}
     }
 
